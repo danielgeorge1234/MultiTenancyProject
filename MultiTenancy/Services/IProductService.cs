@@ -10,5 +10,6 @@ namespace MultiTenancy.Services
         Task<Product?> GetByIdAsync(int Id);
 
         Task<IReadOnlyList<Product>> GetAllAsync();
+
     }
 }
